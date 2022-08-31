@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
 /*For the background image banner*/
-.hero{
+.hero {
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("banner.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("banner.png");
     background-position: center;
     background-size: cover;
     position: absolute;
 }
 
 /*For the box in the center which houses all login and registration activities*/
-.form-box{
+.form-box {
     width: 380px;
     height: 480px;
     position: relative;
@@ -25,13 +25,13 @@
     overflow: hidden;
 }
 
-.form-box h3{
+.form-box h3 {
     text-align: center;
     color: orangered;
 }
 
 /*Slight shadow effects on top*/
-.button-box{
+.button-box {
     width: 220px;
     margin: 35px auto;
     position: relative;
@@ -40,7 +40,7 @@
 }
 
 /*Buttons Customization of Login and Register*/
-.toggle-btn{
+.toggle-btn {
     padding: 10px 30px;
     cursor: pointer;
     background: transparent;
@@ -50,7 +50,7 @@
 }
 
 /*Login and Register Button atop*/
-#btn{
+#btn {
     top: 0;
     left: 0;
     position: absolute;
@@ -62,12 +62,12 @@
 }
 
 /*Social Media Icons*/
-.social{
+.social {
     margin: 30px auto;
     text-align: center;
 }
 
-.social img{
+.social img {
     width: 30px;
     margin: 0 12px;
     box-shadow: 0 0 20px 0 #7f7f7f3d;
@@ -75,17 +75,18 @@
     border-radius: 50%;
 }
 
-.input-group{
+.input-group {
     top: 180px;
     position: absolute;
     width: 280px;
     transition: .5s;
 }
 
-.input-field{
+.input-field {
     width: 100%;
     padding: 10px 0;
-    margin: 5px 0;    /* 5px from top and bottom and 0 from left and right */
+    margin: 5px 0;
+    /* 5px from top and bottom and 0 from left and right */
     border-left: 0;
     border-right: 0;
     border-top: 0;
@@ -94,7 +95,7 @@
     background: transparent;
 }
 
-.submit-btn{
+.submit-btn {
     width: 85%;
     padding: 10px 30px;
     cursor: pointer;
@@ -107,17 +108,17 @@
 }
 
 
-span{
+span {
     color: #777;
     font-size: 12px;
     bottom: 68px;
     position: absolute;
 }
 
-#login{
+#login {
     left: 50px;
 }
 
-#register{
+#register {
     left: 450px;
 }
